@@ -5,7 +5,7 @@ class School
     @name = name 
   end 
   
-  def add_student(name, grade)
+  def roster(name, grade)
     if roster.key?(grade)
       roster[:grade] << name 
     else 
