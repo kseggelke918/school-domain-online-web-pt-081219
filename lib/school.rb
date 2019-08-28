@@ -22,8 +22,9 @@ attr_accessor :name, :roster
   
   def sort 
     alpha_hash = {}
-    roster.each do ||
+    roster.each do |grade, student|
+      alpha_hash[grade] = student.sort
     end 
   end 
-  
+  alpha_hash
 end 
