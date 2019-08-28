@@ -21,8 +21,8 @@ attr_accessor :name, :roster
   end 
   
   def sort 
-    roster.each do |grade, student|
-    binding.pry 
+    roster.collect do |grade, student|
+    student.sort  
     end 
   end 
   
