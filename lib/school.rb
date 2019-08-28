@@ -21,8 +21,8 @@ attr_accessor :name, :roster
   end 
   
   def sort 
-    roster.collect do |grade, student|
-    student.sort  
+    roster.keys.sort_by do |student|
+    roster[student]  
     end 
   end 
   
