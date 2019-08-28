@@ -22,7 +22,7 @@ attr_accessor :name, :roster
   
   def sort 
     roster.sort_by do |grade, students|
-      students 
+      binding.pry  
     end 
   end 
   
