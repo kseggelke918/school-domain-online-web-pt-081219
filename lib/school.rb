@@ -19,4 +19,8 @@ attr_accessor :name, :roster
     roster[grade]
   end 
   
+  def sort 
+    
+  end 
+  
 end 
