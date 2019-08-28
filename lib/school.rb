@@ -25,6 +25,7 @@ attr_accessor :name, :roster
     roster.each do |grade, student|
       alpha_hash[grade] = student.sort
     end 
+    alpha_hash
   end 
-  alpha_hash
+  
 end 
